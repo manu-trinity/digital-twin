@@ -34,6 +34,11 @@
             <!--<box size="${length} ${width} ${height}"/>-->
             <mesh filename="package://husky_description/meshes/accessories/HAP.stl" scale="0.001 0.001 0.001"/>
         </geometry>
+        <material
+        name="">
+        <color
+          rgba="0.05 0.05 0.05 1" />
+      </material>
   </visual>
 </link>
 

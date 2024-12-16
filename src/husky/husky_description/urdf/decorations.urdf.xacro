@@ -97,6 +97,11 @@
         <geometry>
           <mesh filename="package://husky_description/meshes/reachrs2.stl" scale="0.03 0.03 0.03" />
         </geometry>
+        <material
+        name="">
+        <color
+          rgba="0.3 0.3 0.3 1" />
+      </material>
       </visual>
     </link>
 

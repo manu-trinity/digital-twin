@@ -76,7 +76,7 @@
      <joint name="${prefix}zed2_camera_center_joint" type="fixed">
       <parent link="${prefix}top_structure"/>
       <child link="${prefix}zed2_camera_center"/>
-      <origin xyz="-0.35 -0.2 0.309" rpy="0 0 0"/>
+      <origin xyz="-0.839 0.2 0.293" rpy="0 0 ${M_PI}"/>
     </joint>
 
     <xacro:zed2 link_prefix="${prefix}" 
@@ -126,6 +126,7 @@
       <child link="${prefix}gps_link" />
     </joint>
 
+    <!-- Top Structure-->
     <link name="top_structure">
     <inertial>
       <origin

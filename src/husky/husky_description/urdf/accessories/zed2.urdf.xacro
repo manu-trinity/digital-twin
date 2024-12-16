@@ -23,6 +23,11 @@
         <!--<box size="0.1 0.1 0.1"/>-->
           <mesh filename="package://husky_description/meshes/accessories/ZED2i.stl" scale="0.001 0.001 0.001"/>
         </geometry>
+        <material
+        name="">
+        <color
+          rgba="0.15 0.15 0.15 1" />
+      </material>
       </visual>
     </link>
 
